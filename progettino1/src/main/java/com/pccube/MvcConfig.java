@@ -1,4 +1,4 @@
-package com.pccube.conf;
+package com.pccube;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;

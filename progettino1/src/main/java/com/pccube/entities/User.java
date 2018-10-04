@@ -27,6 +27,10 @@ public class User {
 	@OneToMany
 	private List<Task> tasks = new ArrayList<>();
 
+	
+	public User() {}
+	
+	
 	public User(String userName, String password, String type, List<Task> tasks) {
 		super();
 		this.userName = userName;

@@ -23,9 +23,7 @@ public class Application {
 
 	}
 
-	// Inserimento in memoria di 3 utenti diversi con ruoli diversi
-	// Password Cryptate per poter usufruire di spring security
-	// per effettuare il login basta inserire come password la user. es. Alfino pass = alfino
+
 	@Bean
 	public CommandLineRunner demo(UserRepository repository) {
 		return (args) -> {
